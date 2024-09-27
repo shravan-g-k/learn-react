@@ -1,10 +1,9 @@
-import ImageButton from "./ImageButton";
-
+import Counter from "./Counter.jsx";
 function App() {
   
   return (
     <>
-  <ImageButton/>
+  <Counter/>
     </>
   );
 }
