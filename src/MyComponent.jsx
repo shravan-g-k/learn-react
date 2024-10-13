@@ -10,6 +10,7 @@ function MyComponent() {
       setHeight(window.innerHeight);
       setWidth(window.innerWidth);
     });
+    return () => window.removeEventListener("resize", () => {});
   }, []);
 
   useEffect(() => {
