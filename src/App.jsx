@@ -1,10 +1,10 @@
-import MyComponent from "./DigitalClock";
+import ComponentA from "./ComponentA";
 
 function App() {
 
   return (
     <>
-    <MyComponent/>
+    <ComponentA/>
     </>
   );
 }
